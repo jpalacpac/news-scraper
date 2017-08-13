@@ -2,6 +2,15 @@
 	margin-top: 10px;
 }
 
-a {
-	color: #ffffff;
+.headline {
+	color: white;
+}
+
+h6 {
+	text-align: center;
+}
+
+#titleinput {
+	border: 1px solid #9e9e9e;
+	margin-top: 10px;
 }

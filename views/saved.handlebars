@@ -22,11 +22,9 @@
         <div class="panel-body">
           <p class='byline'>{{author}}</p>
           <p class='summary'>{{summary}}</p>
-        </div>
-        <ul class="list-group">
           <a id="delete" data-id="{{ id }}" class="waves-effect waves-light btn-small" href=""><i class="material-icons right">delete</i></a>
-          <a id="comment" data-id="{{ id }}" class="waves-effect waves-light btn-small modal-trigger" href="#modal1"><i class="material-icons left">chat</i></a>
-        </ul>
+          <a id="comment" data-id="{{ id }}" class="waves-effect waves-light btn-small modal-trigger" href="#modal1"><i class="material-icons right">chat</i></a>
+        </div>
       </div>
     </div>
   {{/each}}

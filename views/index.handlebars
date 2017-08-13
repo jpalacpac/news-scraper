@@ -22,20 +22,11 @@
         <div class="panel-body">
           <p class='byline'>{{author}}</p>
           <p class='summary'>{{summary}}</p>
+            <a id="save" data-id="{{ id }}" data-position="bottom" data-delay="50" data-tooltip="Save Article" href=""><i id="save" data-id="{{ id }}" class="material-icons left" href="">add_circle</i>
         </div>
-        <ul class="list-group">
-          <a id="save" data-id="{{ id }}" class="btn-small tool-tipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Save Article" href=""><i class="material-icons left">add_circle</i></a>
-        </ul>
       </div>
     </div>
   {{/each}}
-
-</div>
-<!-- Modal Structure -->
-<div id="modal1" class="modal modal-fixed-footer">
-  <div class='model-content'>
-      <div id="notes"></div>
-  </div>
 </div>
 
 </body>
