@@ -32,7 +32,7 @@ app.use(express.static(__dirname + "/public"));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-mongoose.connect("");
+mongoose.connect("mongodb://heroku_ldj1tt7n:18q4sl1ncp0ppr5a85ra33ecl0@ds143362.mlab.com:43362/heroku_ldj1tt7n");
 var db = mongoose.connection;
 
 //Show any mongoose errors
